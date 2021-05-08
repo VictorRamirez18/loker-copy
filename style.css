@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lucida Bright";
+}
+#banner {
+    background-image: url("assets/bannerDc.jpg");
+    background-size: cover;
+    background-position: top;
+    background-color: #2d2d2d;
+    background-blend-mode: soft-light;
+}
+#div-objetivos {
+    background-image: url("assets/image2.jpeg");
+    background-size: cover;
+    background-position: top;
+    background-color: #2d2d2d;
+    background-blend-mode: soft-light;
+}
+#divTransportista {
+    background-image: url("assets/image3.jpg");
+    background-size: cover;
+    background-position: top;
+    background-color: #2d2d2d;
+    background-blend-mode: soft-light;
+}
+.bg-blue1 {
+    background-color: #4177C9;
+}
+.bg-blue2 {
+    background-color: #00CBF2;
+}
+.bg-blue3 {
+    background-color: #5FECFA;
+}
+.color-blue1 {
+    color: #4177C9;
+}
+.whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    z-index: 10;
+    background-color: #53CE60;
+}
+.whatsapp a {
+    background-color: #53CE60;
+}
+.whatsapp i {
+    font-size: 6vh;
+    color: white;
+    margin: 0px auto;
+    background-color: #53CE60;
+}
+@media only screen and (max-width: 600px) {
+    .whatsapp {
+        bottom: 60px;
+        right: 10px;
+    }
+    .whatsapp i {
+        font-size: 9vh;
+    }
+}
